@@ -1,10 +1,10 @@
 # Reproducibility Package
 
-This repository contains the code and data associated with the revised manuscript:
+This repository contains the code and data associated with the manuscript:
 
-**Noise-Induced Spectral Organization in Stochastic Cellular Automata Driven by Bell-Type Probability Structures**
+**Noise-Induced 1/f-Type Dynamics with Bell-Type Probability Structures**
 
-submitted to IEEE Transactions on Quantum Engineering.
+submitted to Chaos, Solitons & Fractals.
 
 This package is intended to support reproducibility of the main statistical analyses and figures in the revised/resubmitted version of the manuscript. It includes the scripts and data used for the spectral analyses, Wilson confidence intervals, logistic-regression analysis, CHSH-based classification of probability tables, and the auxiliary dynamic-range analysis reported in the Supplementary Material.
 
