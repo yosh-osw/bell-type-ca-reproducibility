@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-OUTDIR_DEFAULT = Path("TQE/spectral_1f_stats")
+OUTDIR_DEFAULT = Path("spectral_1f_stats")
 os.environ.setdefault("MPLCONFIGDIR", str(OUTDIR_DEFAULT / "_mplconfig"))
 os.environ.setdefault("XDG_CACHE_HOME", str(OUTDIR_DEFAULT / "_cache"))
 
