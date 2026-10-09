@@ -5,8 +5,8 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
 OUTDIR = ROOT / "dynamic_range_figures"
-os.environ.setdefault("MPLCONFIGDIR", str(Path("/private/tmp/mplconfig_tqe_dynamic_range")))
-os.environ.setdefault("XDG_CACHE_HOME", str(Path("/private/tmp/mplcache_tqe_dynamic_range")))
+os.environ.setdefault("MPLCONFIGDIR", str(Path("/private/tmp/mplconfig_dynamic_range")))
+os.environ.setdefault("XDG_CACHE_HOME", str(Path("/private/tmp/mplcache_dynamic_range")))
 
 import matplotlib
 matplotlib.use("Agg")
