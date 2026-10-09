@@ -2,16 +2,14 @@
 
 This repository contains the code and data associated with the manuscript:
 
-**Noise-Induced 1/f-Type Dynamics with Bell-Type Probability Structures**
+**Noise-Induced 1/f-Type Dynamics in Stochastic Cellular Automata with Bell-Type Probability Structures**
 
-submitted to Chaos, Solitons & Fractals.
-
-This package is intended to support reproducibility of the main statistical analyses and figures in the revised/resubmitted version of the manuscript. It includes the scripts and data used for the spectral analyses, Wilson confidence intervals, logistic-regression analysis, CHSH-based classification of probability tables, and the auxiliary dynamic-range analysis reported in the Supplementary Material.
+This package supports reproducibility of the main statistical analyses and figures in the manuscript.
 
 ## Contents
 
 - `analyze_spectral_1f_stats.py`: reconstructs the 1/f occurrence labels from `exponent.xlsx`, computes Wilson 95% confidence intervals, and fits logistic-regression models.
-- `make_tqe_submission_figures.py`: regenerates the main manuscript figures based on the statistics CSV files.
+- `make_manuscript_figures.py`: regenerates the main manuscript figures based on the statistics CSV files.
 - `make_dynamic_range_figure.py`: regenerates the auxiliary dynamic-range figure reported in the Supplementary Material.
 - `exponent.xlsx`: source workbook containing fitted spectral exponents used to identify 1/f-type spectra.
 - `table_*.txt`: probability tables used to compute CHSH values and define classical/nonclassical groups.
